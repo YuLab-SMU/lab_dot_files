@@ -43,3 +43,10 @@ autocmd InsertLeave * if pumvisible() == 0 | pclose | endif
 " Nvim-R conf
 let R_assign = 0
 let R_objbr_place = 'script,right'
+
+" vim-colorschemes conf
+colorscheme wombat
+
+" vim-json conf
+let g:vim_json_syntax_conceal = 0
+
