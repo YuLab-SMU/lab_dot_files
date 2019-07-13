@@ -23,6 +23,9 @@ Plugin 'tomasr/molokai'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'jalvesaq/Nvim-R'
+Plugin 'scrooloose/nerdtree'
+Plugin 'vim-airline/vim-airline'
+Plugin 'majutsushi/tagbar'
 call vundle#end()
 filetype plugin indent on
 
@@ -49,4 +52,20 @@ colorscheme wombat
 
 " vim-json conf
 let g:vim_json_syntax_conceal = 0
+
+" nerdtree conf
+map <F2> :NERDTreeToggle<CR>
+let NERDTreeChDirMode = 1
+let NERDTreeShowBookmarks = 1
+let NERDTreeIgnore = ['\~$', '\.pyc$', '\.swp$']
+let NERDTreeWinSize = 25
+
+" vim-airline conf
+let g:airline_powerline_fonts=0
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#buffer_nr_show=1 
+let g:airline#extensions#tagbar#enabled=0 
+
+" tagbar conf
+nmap <F8> :TagbarToggle<CR>
 
