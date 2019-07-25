@@ -1,1 +1,14 @@
+# miniconda2 PATH
 export PATH=/opt/miniconda2/bin:$PATH
+
+# cmake PATH
+export PATH=/opt/cmake/3.14.5/bin/:$PATH
+
+# aspera PATH
+export PATH=/opt/aspera/3.9.5.172984/bin:$PATH
+
+# phyml PATH
+export PATH=/opt/phyml/v3.3.20190321/bin:$PATH
+
+# pplacer PATH
+export PATH=/opt/pplacer/v1.1.alpha9:/opt/pplacer/v1.1.alpha9/scripts:$PATH
